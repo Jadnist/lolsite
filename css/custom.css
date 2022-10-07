@@ -1933,9 +1933,31 @@ select.m-select + span.fa,
 .b-contacts__address-hours-main h5,
 .b-contacts__address-info-main-item
 {
-    color:#555;
+    color:white;
 }
-
+select.m-select + span.fa,
+.b-detail__main-aside form button.btn.m-btn:hover,
+.b-detail__main-aside form button.btn.m-btn span.fa,
+.b-detail__main-info-characteristics-one-bottom,
+.b-compare__block-inside-title,
+.b-compare__links a.btn.m-btn,
+.b-compare__links a.btn.m-btn:hover span.fa,
+.b-blog__aside-categories-list li a,
+.b-blog__aside-popular-posts-one-date,
+.btn.m-btn.m-readMore,
+.btn.m-btn.m-readMore:hover span.fa,
+.b-blog__posts-one-share,
+.b-blog__posts-one-social em,
+.b-blog__posts-one-body-tags,
+.b-article__main-add button.btn.m-btn span.fa,
+.b-more__info-block-title,
+.b-more__info-block-title.m-active a,
+.s-form button[type='submit'] span.fa,
+.b-contacts__address-hours-main h5,
+.b-contacts__address-info-main-item
+{
+    color:#000;
+}
 .s-title,
 .b-asks__call,
 .b-detail__main-aside-desc-value,
@@ -1994,7 +2016,7 @@ select.m-select + span.fa,
 .b-submit__main-contacts-check span,
 .b-submit__main-contacts-check .s-submitCheck
 {
-    color:#666;
+    color:#000;
 }
 
 
@@ -2070,7 +2092,12 @@ select.m-select + span.fa,
 {
     background-color:  #233359;
 }
-
+.b-nav,
+.b-footer
+{
+      color:#fff !important:;
+    background-color:  #233359;
+}
 
 .b-nav__logo h3 a span,
 .b-search__main-type h4,
@@ -3578,7 +3605,7 @@ header{
 
 /* Home Auto */
 .m-home .b-homeAuto{
-    padding: 90px 0;
+    padding-top: 90px;
     box-shadow: 0px 30px 100px -38px rgba(0,0,0,0.3);
     z-index:100;
 }
@@ -4053,10 +4080,12 @@ a.m-langLink{
 }
 
 .b-nav__logo{
-    float:left;
+    float:center;
     padding: 8px 0 0 5px;
-    background: url(../images/logo/logo.png) left top no-repeat;
+    background: url(../images/logo/logo.png) center center no-repeat;
     text-transform: uppercase;
+    width: 150px;
+    height: 58px;
 }
 
 .b-nav__logo h3{
@@ -4096,6 +4125,10 @@ a.m-langLink{
     float:left;
     list-style: none;
     height: 38px;
+    color: #555;
+}
+.b-nav__list .dropdown-menu a{
+    color: #555;
 }
 .navbar-nav-menu > li > .dropdown-menu{
 	display: block !important;
@@ -5238,7 +5271,8 @@ a.m-langLink{
 
 /* Contact */
 .b-contact{
-    padding: 60px 0;
+    padding: 30px 0;
+    margin-bottom: 50px;
 }
 
 .b-contact-title{
@@ -5265,8 +5299,7 @@ a.m-langLink{
 }
 
 .b-contact__form p{
-    font: 400 13px 'Open Sans',sans-serif;
-    margin-bottom: 20px;
+    font: 400 12px 'Open Sans',sans-serif;
 }
 
 .b-contact__form input[type='text']{
@@ -5448,7 +5481,7 @@ a.m-langLink{
 }
 
 .b-info__aside{
-    margin-top:-200px;
+    margin-top:-80px;
     border-top: 3px solid #4B74D6;
     padding: 35px 0 35px 0;
     z-index:100000;
@@ -6986,7 +7019,7 @@ select.m-select + span.fa{
     }
 
     .b-info__aside{
-        margin-top: -240px;
+        margin-top: -80px;
     }
 
     .b-info__map{
@@ -7228,7 +7261,7 @@ select.m-select + span.fa{
     }
 
     .b-info__aside{
-        margin-top: -275px;
+        margin-top: -75px;
     }
 
     .m-home .b-welcome__services-auto, .m-home .b-welcome__services-buying{
@@ -9023,7 +9056,6 @@ body{
 }
 
 .s-shadow{
-    position: relative;
     box-shadow: 0px 30px 100px -38px rgba(0,0,0,0.3);
     z-index:100;
 }
@@ -9497,16 +9529,17 @@ label.s-submitCheck{
   position: fixed;
   width: 100%;
   z-index: 1;
+  background-color: #333333;
 }
 .header-bott{
   position: fixed;
 
   width: 100%;
-  top: 62px;
+  top: 58px;
   z-index: 1;
 }
 .placeholderi{
-  height: 140px;
+  height: 135px;
 }
 .zvonok{
 background-color: #233359;
